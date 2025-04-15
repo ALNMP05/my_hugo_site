@@ -2,6 +2,7 @@ baseURL = "https://alnmp05.github.io/my-hugo-site/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "ananke"
-caches:
-  images:
-    dir: ":cacheDir/images"
+
+[caches]
+  [caches.images]
+    dir = "cacheDir/images"  # Replace with actual path if needed
